@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B513AC132C6C71AB00AE7E2C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B513AC122C6C71AB00AE7E2C /* Card.swift */; };
 		B5D7DE742C6BA35000AED268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7DE732C6BA35000AED268 /* AppDelegate.swift */; };
 		B5D7DE762C6BA35000AED268 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7DE752C6BA35000AED268 /* SceneDelegate.swift */; };
-		B5D7DE782C6BA35000AED268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7DE772C6BA35000AED268 /* ViewController.swift */; };
 		B5D7DE7B2C6BA35000AED268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D7DE792C6BA35000AED268 /* Main.storyboard */; };
 		B5D7DE7D2C6BA35200AED268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D7DE7C2C6BA35200AED268 /* Assets.xcassets */; };
 		B5D7DE802C6BA35200AED268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D7DE7E2C6BA35200AED268 /* LaunchScreen.storyboard */; };
+		B5D7DE882C6BA3E700AED268 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7DE872C6BA3E600AED268 /* CardSelectionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B513AC122C6C71AB00AE7E2C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B5D7DE702C6BA35000AED268 /* CardWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D7DE732C6BA35000AED268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5D7DE752C6BA35000AED268 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5D7DE772C6BA35000AED268 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5D7DE7A2C6BA35000AED268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5D7DE7C2C6BA35200AED268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5D7DE7F2C6BA35200AED268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5D7DE812C6BA35200AED268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D7DE872C6BA3E600AED268 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		B5D7DE722C6BA35000AED268 /* CardWorkout */ = {
 			isa = PBXGroup;
 			children = (
+				B5D7DE872C6BA3E600AED268 /* CardSelectionVC.swift */,
+				B513AC122C6C71AB00AE7E2C /* Card.swift */,
 				B5D7DE732C6BA35000AED268 /* AppDelegate.swift */,
 				B5D7DE752C6BA35000AED268 /* SceneDelegate.swift */,
-				B5D7DE772C6BA35000AED268 /* ViewController.swift */,
 				B5D7DE792C6BA35000AED268 /* Main.storyboard */,
 				B5D7DE7C2C6BA35200AED268 /* Assets.xcassets */,
 				B5D7DE7E2C6BA35200AED268 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5D7DE782C6BA35000AED268 /* ViewController.swift in Sources */,
 				B5D7DE742C6BA35000AED268 /* AppDelegate.swift in Sources */,
 				B5D7DE762C6BA35000AED268 /* SceneDelegate.swift in Sources */,
+				B5D7DE882C6BA3E700AED268 /* CardSelectionVC.swift in Sources */,
+				B513AC132C6C71AB00AE7E2C /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
